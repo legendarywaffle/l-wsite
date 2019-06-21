@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+body {
+  background-color: lightblue;
+}
+
+#header {
+  position: absolute;
+  border-left: solid #122932;
+  border-right: solid #122932;
+  border-width: 12px;
+  font-family: 'Noto Serif', serif;
+  background-color: #1e2019;
+}
+
+
+#header .name h1 {
+  text-align: center;
+  color: #cfee9e;
+}
+
+#header .nav ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  width: 70%;
+  margin: auto;
+}
+
+#header .nav li {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#header .nav a {
+  text-decoration: none;
+  color: #cfee9e;
+}
+
+#header .nav a:hover {
+  border-bottom: solid #cfee9e;
+}
