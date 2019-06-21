@@ -5,13 +5,16 @@ body {
   background-size: cover;
 }
 
+a,h1,h3 {
+  font-family: 'Noto Serif', serif;
+}
+
 #header {
   position: absolute;
   margin: 25px 0px 0px 25px;
   border-left: solid #122932;
   border-right: solid #122932;
   border-width: 12px;
-  font-family: 'Noto Serif', serif;
   background-color: #1e2019;
   width: 350px;
   height: 120px;
@@ -40,4 +43,27 @@ body {
 
 #header .nav a:hover {
   border-bottom: solid #b3a394;
+}
+
+#footer {
+  margin: 0px 0px 25px 25px;
+  border-left: solid #122932;
+  border-right: solid #122932;
+  position: absolute;
+  bottom: 0;
+  border-width: 12px;
+  background-color: #1e2019;
+}
+
+#footer h3 {
+  text-align: center;
+  color: #b3a394;
+}
+
+#discord {
+  width: 20px;
+}
+
+#twitter {
+  width: 20px;
 }
