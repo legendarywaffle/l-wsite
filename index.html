@@ -6,6 +6,13 @@
     <title>Legendary-waffle</title>
     <link rel="stylesheet" media="screen and (min-width: 550px)" href="css/master-900px.css">
     <link rel="stylesheet" media="screen and (max-width: 549px)" href="css/master-600px.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+    </script>
   </head>
   <body>
     <header>
@@ -23,6 +30,20 @@
         </div>
       </div>
     </header>
+    <main>
+      <div id="content">
+        <div id="draggable" class="ui-widget-content">
+          <div class="box">
+            <h1>Usefull links</h1>
+            <hr>
+            <ul>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">Dev Site</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <div id="footer">
         <h3>&copy; Legendary-waffle.xyz 2019 - <a href="https://discord.gg/UPwt5ey"> <img id="discord" src="images/discord.png" alt="discord"> </a> - <a href="#"> <img id="twitter" src="images/twitter.png" alt="twitter"> </a> </h3>
